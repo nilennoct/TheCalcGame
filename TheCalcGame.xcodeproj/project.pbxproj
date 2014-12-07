@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B559B4FA1A349B2600D9BF7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B559B4F91A349B2600D9BF7B /* main.m */; };
+		B559B4FD1A349B2600D9BF7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B559B4FC1A349B2600D9BF7B /* AppDelegate.m */; };
+		B559B5001A349B2600D9BF7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B559B4FF1A349B2600D9BF7B /* ViewController.m */; };
+		B559B5031A349B2600D9BF7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B559B5011A349B2600D9BF7B /* Main.storyboard */; };
+		B559B5051A349B2600D9BF7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B559B5041A349B2600D9BF7B /* Images.xcassets */; };
+		B559B5081A349B2600D9BF7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B559B5061A349B2600D9BF7B /* LaunchScreen.xib */; };
+		B559B5141A349B2700D9BF7B /* TheCalcGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B559B5131A349B2700D9BF7B /* TheCalcGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B559B50E1A349B2700D9BF7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B559B4EC1A349B2600D9BF7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B559B4F31A349B2600D9BF7B;
+			remoteInfo = TheCalcGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B559B4F41A349B2600D9BF7B /* TheCalcGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCalcGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B559B4F81A349B2600D9BF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B559B4F91A349B2600D9BF7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B559B4FB1A349B2600D9BF7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B559B4FC1A349B2600D9BF7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B559B4FE1A349B2600D9BF7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B559B4FF1A349B2600D9BF7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B559B5021A349B2600D9BF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B559B5041A349B2600D9BF7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B559B5071A349B2600D9BF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B559B50D1A349B2700D9BF7B /* TheCalcGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCalcGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B559B5121A349B2700D9BF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B559B5131A349B2700D9BF7B /* TheCalcGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheCalcGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B559B4F11A349B2600D9BF7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B559B50A1A349B2700D9BF7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B559B4EB1A349B2600D9BF7B = {
+			isa = PBXGroup;
+			children = (
+				B559B4F61A349B2600D9BF7B /* TheCalcGame */,
+				B559B5101A349B2700D9BF7B /* TheCalcGameTests */,
+				B559B4F51A349B2600D9BF7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B559B4F51A349B2600D9BF7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B559B4F41A349B2600D9BF7B /* TheCalcGame.app */,
+				B559B50D1A349B2700D9BF7B /* TheCalcGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B559B4F61A349B2600D9BF7B /* TheCalcGame */ = {
+			isa = PBXGroup;
+			children = (
+				B559B4FB1A349B2600D9BF7B /* AppDelegate.h */,
+				B559B4FC1A349B2600D9BF7B /* AppDelegate.m */,
+				B559B4FE1A349B2600D9BF7B /* ViewController.h */,
+				B559B4FF1A349B2600D9BF7B /* ViewController.m */,
+				B559B5011A349B2600D9BF7B /* Main.storyboard */,
+				B559B5041A349B2600D9BF7B /* Images.xcassets */,
+				B559B5061A349B2600D9BF7B /* LaunchScreen.xib */,
+				B559B4F71A349B2600D9BF7B /* Supporting Files */,
+			);
+			path = TheCalcGame;
+			sourceTree = "<group>";
+		};
+		B559B4F71A349B2600D9BF7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B559B4F81A349B2600D9BF7B /* Info.plist */,
+				B559B4F91A349B2600D9BF7B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B559B5101A349B2700D9BF7B /* TheCalcGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B559B5131A349B2700D9BF7B /* TheCalcGameTests.m */,
+				B559B5111A349B2700D9BF7B /* Supporting Files */,
+			);
+			path = TheCalcGameTests;
+			sourceTree = "<group>";
+		};
+		B559B5111A349B2700D9BF7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B559B5121A349B2700D9BF7B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B559B4F31A349B2600D9BF7B /* TheCalcGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B559B5171A349B2700D9BF7B /* Build configuration list for PBXNativeTarget "TheCalcGame" */;
+			buildPhases = (
+				B559B4F01A349B2600D9BF7B /* Sources */,
+				B559B4F11A349B2600D9BF7B /* Frameworks */,
+				B559B4F21A349B2600D9BF7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheCalcGame;
+			productName = TheCalcGame;
+			productReference = B559B4F41A349B2600D9BF7B /* TheCalcGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B559B50C1A349B2700D9BF7B /* TheCalcGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B559B51A1A349B2700D9BF7B /* Build configuration list for PBXNativeTarget "TheCalcGameTests" */;
+			buildPhases = (
+				B559B5091A349B2700D9BF7B /* Sources */,
+				B559B50A1A349B2700D9BF7B /* Frameworks */,
+				B559B50B1A349B2700D9BF7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B559B50F1A349B2700D9BF7B /* PBXTargetDependency */,
+			);
+			name = TheCalcGameTests;
+			productName = TheCalcGameTests;
+			productReference = B559B50D1A349B2700D9BF7B /* TheCalcGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B559B4EC1A349B2600D9BF7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Neo He";
+				TargetAttributes = {
+					B559B4F31A349B2600D9BF7B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B559B50C1A349B2700D9BF7B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B559B4F31A349B2600D9BF7B;
+					};
+				};
+			};
+			buildConfigurationList = B559B4EF1A349B2600D9BF7B /* Build configuration list for PBXProject "TheCalcGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B559B4EB1A349B2600D9BF7B;
+			productRefGroup = B559B4F51A349B2600D9BF7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B559B4F31A349B2600D9BF7B /* TheCalcGame */,
+				B559B50C1A349B2700D9BF7B /* TheCalcGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B559B4F21A349B2600D9BF7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B559B5031A349B2600D9BF7B /* Main.storyboard in Resources */,
+				B559B5081A349B2600D9BF7B /* LaunchScreen.xib in Resources */,
+				B559B5051A349B2600D9BF7B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B559B50B1A349B2700D9BF7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B559B4F01A349B2600D9BF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B559B5001A349B2600D9BF7B /* ViewController.m in Sources */,
+				B559B4FD1A349B2600D9BF7B /* AppDelegate.m in Sources */,
+				B559B4FA1A349B2600D9BF7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B559B5091A349B2700D9BF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B559B5141A349B2700D9BF7B /* TheCalcGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B559B50F1A349B2700D9BF7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B559B4F31A349B2600D9BF7B /* TheCalcGame */;
+			targetProxy = B559B50E1A349B2700D9BF7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B559B5011A349B2600D9BF7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B559B5021A349B2600D9BF7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B559B5061A349B2600D9BF7B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B559B5071A349B2600D9BF7B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B559B5151A349B2700D9BF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B559B5161A349B2700D9BF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B559B5181A349B2700D9BF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheCalcGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B559B5191A349B2700D9BF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheCalcGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B559B51B1A349B2700D9BF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheCalcGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCalcGame.app/TheCalcGame";
+			};
+			name = Debug;
+		};
+		B559B51C1A349B2700D9BF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheCalcGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCalcGame.app/TheCalcGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B559B4EF1A349B2600D9BF7B /* Build configuration list for PBXProject "TheCalcGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B559B5151A349B2700D9BF7B /* Debug */,
+				B559B5161A349B2700D9BF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B559B5171A349B2700D9BF7B /* Build configuration list for PBXNativeTarget "TheCalcGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B559B5181A349B2700D9BF7B /* Debug */,
+				B559B5191A349B2700D9BF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B559B51A1A349B2700D9BF7B /* Build configuration list for PBXNativeTarget "TheCalcGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B559B51B1A349B2700D9BF7B /* Debug */,
+				B559B51C1A349B2700D9BF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B559B4EC1A349B2600D9BF7B /* Project object */;
+}
