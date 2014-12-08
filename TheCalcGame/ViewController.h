@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "GameController.h"
+
+@interface ViewController : UIViewController {
+	GameController *gameCtrl;
+	
+	IBOutlet UILabel *label;
+	IBOutlet UIProgressView *progressView;
+}
+
+- (IBAction)pressTrueBtn:(id)sender;
+- (IBAction)pressFalseBtn:(id)sender;
 
 
 @end
