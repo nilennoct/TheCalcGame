@@ -197,7 +197,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="label" destination="eMd-gX-QHC" id="Xmp-QE-pfE"/>
+                        <outlet property="equationLabel" destination="eMd-gX-QHC" id="Xmp-QE-pfE"/>
                         <outlet property="progressView" destination="6LM-ky-fNd" id="fR0-C0-jgm"/>
                     </connections>
                 </viewController>

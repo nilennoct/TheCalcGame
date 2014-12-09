@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "Mediator.h"
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    Mediator *mediator;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

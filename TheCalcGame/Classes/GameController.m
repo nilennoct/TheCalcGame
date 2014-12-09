@@ -10,35 +10,66 @@
 
 @implementation GameController
 
-- (GameController *)initWithProgressView:(UIProgressView *)aProgressView {
-	if (self = [super init]) {
-		duration = 4.0;
-		
-		progressView = aProgressView;
-	}
-	
-	return self;
+- (GameController *)init {
+    if (self = [super init]) {
+        duration = 4.0;
+
+        mediator = [Mediator getInstance];
+    }
+
+    return self;
 }
 
+- (void)start {
+    score = 0;
+    [self startTimer];
+}
+- (void)nextTurn {
+    [mediator updateScore:++score];
+    [self startTimer];
+}
+
+- (BOOL)getEquality {
+    BOOL equality = [Utils randomBool];
+
+    if (equality == lastEquality) {
+        if (sameEqualityCount >= 2 && [Utils randomBoolWithTrue:sameEqualityCount + 1]) {
+            equality = !equality;
+            sameEqualityCount = 0;
+        }
+        else {
+            ++sameEqualityCount;
+        }
+    }
+    else {
+        sameEqualityCount = 0;
+    }
+
+    return lastEquality = equality;
+}
+
+// Timer
+
 - (void)startTimer {
-	if (timer) {
-		[self clearTimer];
-	}
-	
-	timer = [NSTimer scheduledTimerWithTimeInterval:duration / 100 target:self selector:@selector(updateProgressView) userInfo:nil repeats:YES];
+    if (timer) {
+        [self clearTimer];
+    }
+
+    timer = [NSTimer scheduledTimerWithTimeInterval:duration / 100 target:self selector:@selector(updateProgressView) userInfo:nil repeats:YES];
 }
 
 - (void)clearTimer {
 	[timer invalidate];
 	timer = nil;
 	timePast = 0;
-	[progressView setProgress:0];
+	[mediator setProgress:0];
 }
 
 - (void)updateProgressView {
+    NSLog(@"timePast: %f", timePast);
 	if (timePast < duration) {
 		timePast += duration / 100;
-		[progressView setProgress:timePast / duration animated:YES];
+		[mediator setProgress:timePast / duration animated:YES];
 	}
 	else {
 		[self clearTimer];

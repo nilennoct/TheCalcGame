@@ -7,22 +7,35 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
-#import "Utils.h"
+#import "../Utils/Utils.h"
 
-#define GAME_DURATION_PER_DEAL 4.0
+#import "Mediator.h"
+#import "ViewController.h"
 
 @interface GameController : NSObject {
 	float duration;
 	float timePast;
-	
+
+    int score;
+
+    BOOL lastEquality;
+    int sameEqualityCount;
+
+    Mediator *mediator;
+    ViewController *viewCtrl;
+
 	NSTimer *timer;
-	UIProgressView * __weak progressView;
 }
 
-- (GameController *) initWithProgressView:(UIProgressView *)aProgressView;
+- (GameController *)init;
 
-- (void) startTimer;
+- (void)start;
+- (void)nextTurn;
+
+// Timer
+
+- (void)startTimer;
+
 
 @end
