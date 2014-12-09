@@ -17,14 +17,25 @@
 
 @property ViewController *viewCtrl;
 
+// Game
+
 - (void)startGame;
 
 
 // UI
 
+- (void)handlePressTrueBtn;
+- (void)handlePressFalseBtn;
+
 - (void)updateScore:(int)score;
+- (void)updateEquation:(NSString *)equationText;
 
 - (void)setProgress:(float)progress;
 - (void)setProgress:(float)progress animated:(BOOL)animated;
+
+// Test
+
+- (void)test;
+
 
 @end

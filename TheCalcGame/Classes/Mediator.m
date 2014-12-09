@@ -31,13 +31,25 @@ static Mediator *singleton = nil;
 
 - (void)startGame {
     NSLog(@"Game start");
+	[viewCtrl.startBtn setHidden:YES];
     gameCtrl = [[GameController alloc] init];
     [gameCtrl start];
 }
 
 // UI
+- (void)handlePressTrueBtn {
+	[gameCtrl checkEquality:YES];
+}
+- (void)handlePressFalseBtn {
+	[gameCtrl checkEquality:NO];
+}
+
 - (void)updateScore:(int)score {
     self.viewCtrl.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", score];
+}
+
+- (void)updateEquation:(NSString *)equationText {
+	self.viewCtrl.equationLabel.text = equationText;
 }
 
 - (void)setProgress:(float)progress {
@@ -45,6 +57,12 @@ static Mediator *singleton = nil;
 }
 - (void)setProgress:(float)progress animated:(BOOL)animated {
     [self.viewCtrl.progressView setProgress:progress animated:animated];
+}
+
+// Test
+
+- (void)test {
+
 }
 
 // Private Method

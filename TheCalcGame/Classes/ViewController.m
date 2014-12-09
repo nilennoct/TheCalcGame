@@ -17,29 +17,26 @@
 @synthesize scoreLabel;
 @synthesize equationLabel;
 @synthesize progressView;
+@synthesize startBtn;
+
+- (IBAction)pressStartBtn:(id)sender {
+	[mediator startGame];
+}
 
 - (IBAction)pressTrueBtn:(id)sender {
-    [mediator startGame];
-	self.equationLabel.text = [NSString stringWithFormat:@"%d", [Utils randomIntFrom:0 to:9]];
+	[mediator handlePressTrueBtn];
 }
 
 - (IBAction)pressFalseBtn:(id)sender {
-    self.equationLabel.text = [NSString stringWithFormat:@"%d", [Utils randomIntFrom:10 to:99]];
-}
-
-- (ViewController *)init {
-    if (self = [super init]) {
-        mediator = [Mediator getInstance];
-        mediator.viewCtrl = self;
-    }
-
-    return self;
+	[mediator handlePressFalseBtn];
 }
 
 - (void)viewDidLoad {
+	mediator = [Mediator getInstance];
+	mediator.viewCtrl = self;
+	
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [mediator startGame];
 }
 
 - (void)didReceiveMemoryWarning {

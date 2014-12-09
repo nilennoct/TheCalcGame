@@ -9,15 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "MT_Rand.h"
 
-@interface Utils : NSObject
-
 #ifndef GAME_OPERATOR
+
 #define GAME_OPERATOR
 #define GAME_OPERATOR_PLUS 0
 #define GAME_OPERATOR_MINUS 1
 #define GAME_OPERATOR_MULTIPLY 2
 #define GAME_OPERATOR_DIVIDE 3
+
 #endif
+
+@interface Utils : NSObject
 
 + (int)randomIntFrom:(int)min to:(int)max;
 + (BOOL)randomBool;

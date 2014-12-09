@@ -17,8 +17,10 @@
 	float duration;
 	float timePast;
 
+	BOOL isEnd;
     int score;
 
+	BOOL currentEquality;
     BOOL lastEquality;
     int sameEqualityCount;
 
@@ -31,11 +33,12 @@
 - (GameController *)init;
 
 - (void)start;
-- (void)nextTurn;
+- (void)checkEquality:(BOOL)equality;
 
 // Timer
 
 - (void)startTimer;
+- (void)clearTimer;
 
 
 @end

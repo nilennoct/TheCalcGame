@@ -15,15 +15,18 @@
 @interface ViewController : UIViewController {
 	Mediator *mediator;
 
-    IBOutlet UILabel * __weak scoreLabel;
-    IBOutlet UILabel * __weak equationLabel;
-	IBOutlet UIProgressView * __weak progressView;
+    __weak IBOutlet UILabel * scoreLabel;
+    __weak IBOutlet UILabel * equationLabel;
+	__weak IBOutlet UIProgressView * progressView;
+	__weak IBOutlet UIButton *startBtn;
 }
 
 @property (weak, readonly) UILabel *scoreLabel;
 @property (weak, readonly) UILabel *equationLabel;
 @property (weak, readonly) UIProgressView *progressView;
+@property (weak, readonly) UIButton *startBtn;
 
+- (IBAction)pressStartBtn:(id)sender;
 - (IBAction)pressTrueBtn:(id)sender;
 - (IBAction)pressFalseBtn:(id)sender;
 
