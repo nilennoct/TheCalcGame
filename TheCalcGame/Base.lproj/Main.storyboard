@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
@@ -198,25 +198,17 @@
                                 <exclude reference="s8L-VD-Nkg"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="MId-kk-fAO"/>
-                                <exclude reference="mnh-WD-be5"/>
-                                <exclude reference="pxZ-Fn-faC"/>
-                                <exclude reference="2QO-Iz-jiU"/>
-                                <exclude reference="MBp-C6-Hnp"/>
-                                <exclude reference="RFB-K5-vLF"/>
-                                <exclude reference="bYp-VA-OiD"/>
-                                <exclude reference="eWH-DP-gGQ"/>
-                                <exclude reference="t5a-dP-eek"/>
                                 <exclude reference="8ed-rt-Asx"/>
                                 <exclude reference="cFT-bz-pCi"/>
                                 <exclude reference="exT-X5-qT6"/>
+                                <exclude reference="MId-kk-fAO"/>
+                                <exclude reference="mnh-WD-be5"/>
+                                <exclude reference="pxZ-Fn-faC"/>
                                 <exclude reference="1fv-rE-Xqj"/>
                                 <exclude reference="I2K-bo-PBS"/>
                                 <exclude reference="n8F-7Z-K9G"/>
                                 <exclude reference="rH7-74-MEm"/>
                                 <exclude reference="yd6-1w-ONI"/>
-                                <exclude reference="UTe-Zu-ijL"/>
-                                <exclude reference="nuI-et-d9Y"/>
                                 <exclude reference="0Tw-a7-q6O"/>
                                 <exclude reference="8lN-YE-gyY"/>
                                 <exclude reference="OzP-DZ-Sem"/>
@@ -224,6 +216,14 @@
                                 <exclude reference="bna-w7-BLk"/>
                                 <exclude reference="kc2-rh-21X"/>
                                 <exclude reference="zdl-6M-DrV"/>
+                                <exclude reference="UTe-Zu-ijL"/>
+                                <exclude reference="nuI-et-d9Y"/>
+                                <exclude reference="2QO-Iz-jiU"/>
+                                <exclude reference="MBp-C6-Hnp"/>
+                                <exclude reference="RFB-K5-vLF"/>
+                                <exclude reference="bYp-VA-OiD"/>
+                                <exclude reference="eWH-DP-gGQ"/>
+                                <exclude reference="t5a-dP-eek"/>
                                 <exclude reference="WJE-Ln-PRa"/>
                             </mask>
                         </variation>
@@ -236,25 +236,17 @@
                                 <include reference="s8L-VD-Nkg"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="MId-kk-fAO"/>
-                                <include reference="mnh-WD-be5"/>
-                                <include reference="pxZ-Fn-faC"/>
-                                <exclude reference="2QO-Iz-jiU"/>
-                                <include reference="MBp-C6-Hnp"/>
-                                <include reference="RFB-K5-vLF"/>
-                                <include reference="bYp-VA-OiD"/>
-                                <exclude reference="eWH-DP-gGQ"/>
-                                <include reference="t5a-dP-eek"/>
                                 <include reference="8ed-rt-Asx"/>
                                 <include reference="cFT-bz-pCi"/>
                                 <include reference="exT-X5-qT6"/>
+                                <include reference="MId-kk-fAO"/>
+                                <include reference="mnh-WD-be5"/>
+                                <include reference="pxZ-Fn-faC"/>
                                 <include reference="1fv-rE-Xqj"/>
                                 <include reference="I2K-bo-PBS"/>
                                 <include reference="n8F-7Z-K9G"/>
                                 <include reference="rH7-74-MEm"/>
                                 <include reference="yd6-1w-ONI"/>
-                                <include reference="UTe-Zu-ijL"/>
-                                <include reference="nuI-et-d9Y"/>
                                 <exclude reference="0Tw-a7-q6O"/>
                                 <include reference="8lN-YE-gyY"/>
                                 <exclude reference="OzP-DZ-Sem"/>
@@ -262,6 +254,14 @@
                                 <include reference="bna-w7-BLk"/>
                                 <include reference="kc2-rh-21X"/>
                                 <exclude reference="zdl-6M-DrV"/>
+                                <include reference="UTe-Zu-ijL"/>
+                                <include reference="nuI-et-d9Y"/>
+                                <exclude reference="2QO-Iz-jiU"/>
+                                <include reference="MBp-C6-Hnp"/>
+                                <include reference="RFB-K5-vLF"/>
+                                <include reference="bYp-VA-OiD"/>
+                                <exclude reference="eWH-DP-gGQ"/>
+                                <include reference="t5a-dP-eek"/>
                                 <exclude reference="WJE-Ln-PRa"/>
                             </mask>
                         </variation>
